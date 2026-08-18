@@ -1,0 +1,184 @@
+body {
+    font-family: serif;
+    line-height: 1.5;
+    margin: 5%;
+}
+
+
+/* ============================= */
+/* Newspaper front page          */
+/* ============================= */
+
+.newspaper-header {
+    text-align: center;
+    margin-top: 15%;
+}
+
+.newspaper-header h1 {
+    font-size: 2em;
+    margin-bottom: 0.3em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.newspaper-subtitle {
+    font-size: 1em;
+    font-style: italic;
+    margin-top: 0.4em;
+    margin-bottom: 1.5em;
+}
+
+.edition-info {
+    font-size: 0.9em;
+    margin-top: 1.5em;
+}
+
+
+/* ============================= */
+/* Article title                 */
+/* ============================= */
+
+h1 {
+    font-size: 1.7em;
+    line-height: 1.2;
+    margin-top: 0.8em;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    font-size: 1.35em;
+    margin-top: 1.4em;
+    margin-bottom: 0.5em;
+}
+
+h3 {
+    font-size: 1.15em;
+    margin-top: 1.2em;
+}
+
+
+/* ============================= */
+/* Article metadata              */
+/* ============================= */
+
+.article-metadata {
+    font-size: 0.82em;
+    font-style: italic;
+    margin-top: 0.5em;
+    margin-bottom: 1.5em;
+    padding-bottom: 0.8em;
+    border-bottom: 1px solid;
+}
+
+.article-metadata p {
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+}
+
+
+/* ============================= */
+/* Article body                  */
+/* ============================= */
+
+p {
+    margin-top: 0.75em;
+    margin-bottom: 0.75em;
+    text-align: justify;
+}
+
+blockquote {
+    margin-left: 1.2em;
+    margin-right: 1.2em;
+    padding-left: 0.8em;
+    border-left: 2px solid;
+    font-style: italic;
+}
+
+
+/* ============================= */
+/* Links                         */
+/* ============================= */
+
+a {
+    text-decoration: underline;
+}
+
+
+/* ============================= */
+/* Images                        */
+/* ============================= */
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+
+/* ============================= */
+/* Code                          */
+/* ============================= */
+
+code {
+    font-family: monospace;
+    font-size: 0.9em;
+}
+
+pre {
+    font-family: monospace;
+    font-size: 0.85em;
+    white-space: pre-wrap;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+
+/* ============================= */
+/* Bottom source section         */
+/* ============================= */
+
+.article-source {
+    margin-top: 2em;
+    padding-top: 1em;
+    border-top: 1px solid;
+    font-size: 0.8em;
+}
+
+.article-source p {
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+}
+
+
+/* ============================= */
+/* Horizontal separators         */
+/* ============================= */
+
+hr {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.article-header {
+    margin-bottom: 1.5em;
+}
+
+.article-category {
+    font-size: 0.78em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 0.3em;
+}
+
+.article-header h1 {
+    margin-top: 0.2em;
+    margin-bottom: 0.4em;
+}
+
+.article-header .article-metadata {
+    border-bottom: 1px solid;
+    padding-bottom: 0.8em;
+}
