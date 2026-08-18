@@ -1,11 +1,14 @@
 newspaper:
   title: "The Dario Times"
   language: "it"
-  max_articles_per_feed: 2
+  max_articles_per_feed: 1
   send_to_kindle: true
   include_images: true
 
 feeds:
+  - name: "Gamesource"
+    url: "https://www.gamesource.it/feed/gn"
+    category: "Videogames"
   - name: "Mia mamma usa Linux"
     url: "https://www.miamammausalinux.org/feed/"
     category: "OS"
@@ -15,6 +18,9 @@ feeds:
   - name: "Red Hot Cyber"
     url: "https://www.redhotcyber.com/feed/"
     category: "Cyber Security"
-  - name: "Gamesource"
-    url: "https://www.gamesource.it/feed/gn"
-    category: "Videogames"
+  - name: "Red Hot Cyber"
+    url: "https://www.redhotcyber.com/feed/"
+  - name: "SecurityInfo"
+    url: "https://www.securityinfo.it/feed/"
+  - name: "Krebs on Security"
+    url: "https://krebsonsecurity.com/feed/"
